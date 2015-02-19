@@ -1,11 +1,11 @@
 ## makeCacheMatrix and cacheSolve functions computes the inverse of a
 ## matrix and save the value for future uses.
 
-## makeCacheMatrix creates a matrix that contains 4 inner functions:
-##     set: Replace the initial cache matrix.
-##     get: Return the current cache matrix.
-##     setinv: Set the inverse of the cache matrix.
-##     getinv: Return the current cache inverse of the matrix.
+## makeCacheMatrix creates a list that contains 4 inner functions:
+##     set: Replace the initial cached matrix.
+##     get: Return the current cached matrix.
+##     setinv: Set the inverse of the cached matrix.
+##     getinv: Return the current cached inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
